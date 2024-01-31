@@ -1,0 +1,22 @@
+@prefix astro: <http://example.org/astronomy#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Class definitions (optional, for clarity)
+astro:CelestialObject rdf:type rdfs:Class .
+astro:Place rdf:type rdfs:Class .
+astro:SolarSystem rdf:type rdfs:Class .
+astro:Galaxy rdf:type rdfs:Class .
+astro:Star rdf:type rdfs:Class .
+
+# Property definitions
+astro:name rdf:type rdf:Property .
+astro:center rdf:type rdf:Property .
+astro:distanceToCenter rdf:type rdf:Property .
+astro:mass rdf:type rdf:Property .
+astro:rotationSpeed rdf:type rdf:Property .
+astro:image rdf:type rdf:Property .
+astro:locatedOn rdf:type rdf:Property .
+astro:contains rdf:type rdf:Property .
+astro:position rdf:type rdf:Property .
+astro:isPartOf rdf:type rdf:Property .

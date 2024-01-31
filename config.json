@@ -1,0 +1,21 @@
+{
+    "galaxies": 5,
+    "galaxy_spacing": {
+        "min_distance": 100000,
+        "max_distance": 500000
+    },
+    "solar_systems": {
+        "min": 3,
+        "max": 10,
+        "min_distance": 1000,
+        "max_distance": 5000
+    },
+    "planets": {
+        "min": 2,
+        "max": 8
+    },
+    "moons": {
+        "min": 0,
+        "max": 3
+    }
+}
